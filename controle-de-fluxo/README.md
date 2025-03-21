@@ -1,18 +1,48 @@
-## Getting Started
+# Contador
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## 📜 Sobre o Projeto
+Este projeto é um programa em **Java** que solicita ao usuário dois números inteiros e imprime uma contagem entre eles. Caso o primeiro número seja maior que o segundo, o programa lança uma exceção personalizada chamada `ParametrosInvalidosException`.
 
-## Folder Structure
+## 🚀 Funcionalidades
+- 🏷 **Entrada de Dados**: O usuário insere dois números inteiros.
+- 🔢 **Contagem Progressiva**: Exibe os números entre o primeiro e o segundo valor informado.
+- ⚠ **Tratamento de Exceções**: Se o primeiro número for maior que o segundo, o programa gera uma exceção personalizada.
 
-The workspace contains two folders by default, where:
+## 🛠 Tecnologias Utilizadas
+- **Java**
+- **Scanner (para entrada de dados do usuário)**
+- **Exceções personalizadas em Java**
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 📦 Como Executar o Programa
+### 1️⃣ Pré-requisitos
+Certifique-se de ter instalado:
+- [Java JDK](https://www.oracle.com/java/technologies/javase-downloads.html)
+- Um ambiente de desenvolvimento como **Eclipse**, **IntelliJ IDEA** ou **VS Code** (com extensão Java)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### 2️⃣ Clonar o Repositório
+```bash
+  git clone https://github.com/seuusuario/ContadorJava.git
+```
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+### 3️⃣ Compilar e Executar
+1. Abra um terminal e navegue até o diretório do arquivo.
+2. Compile o código com:
+   ```bash
+   javac Contador.java
+   ```
+3. Execute o programa com:
+   ```bash
+   java Contador
+   ```
+4. Insira os valores conforme solicitado no terminal.
 
-## Dependency Management
+## 🚨 Tratamento de Erros
+Se o primeiro número for maior que o segundo, o programa exibirá:
+```
+O segundo parâmetro deve ser maior que o primeiro.
+```
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+
+🚀 **Contador Java** - Um simples contador com tratamento de exceções! 🔢
+
